@@ -1,7 +1,8 @@
 .top {
   background-color: #d8d8d8;
   height: 50px;
-  border-bottom: 3px solid #c5c5c6; }
+  border-bottom: 3px solid #c5c5c6;
+  padding-left: 20px; }
   .top span {
     text-transform: uppercase;
     color: #596588;
@@ -108,7 +109,7 @@
     font-family: Impact, sans-serif;
     z-index: 9999;
     background-color: #77839a;
-    min-height: 100%;
+    height: 630px;
     width: 292px;
     position: absolute; }
     .menu .left .box {
@@ -155,7 +156,10 @@
   background-color: #d8d8d8;
   height: 250px;
   width: 100%;
-  position: absolute; }
+  position: relative;
+  -webkit-box-shadow: 0px 14px 17px -8px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 14px 17px -8px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 14px 17px -8px rgba(0, 0, 0, 0.57); }
   .welc p {
     font-family: verdana;
     font-weight: bold;
@@ -166,6 +170,14 @@
     .welc p small {
       font-size: 22px; }
 
+.content {
+  min-height: 300px; }
+  .content p {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 5px; }
+
 /*.col-md-3, .col-md-4, .col-md-8, .col-md-9, .col-md-12{
 	outline: 1px solid red;
 } */
@@ -174,18 +186,18 @@
 
 .top2 {
   z-index: 999999;
-  background-color: #000;
+  background-color: #ef7f1a;
   height: 50px;
-  border-bottom: 3px solid #c5c5c6; }
+  padding-left: 20px; }
   .top2 span {
     text-transform: uppercase;
-    color: #596588;
+    color: #fff;
     display: inline-block;
     padding-top: 15px;
     font-size: 14px; }
   .top2 a {
     text-decoration: none;
-    color: #77839a;
+    color: #fff;
     text-transform: none; }
   .top2 .location {
     position: relative; }
@@ -193,7 +205,7 @@
     position: absolute;
     left: -30px;
     top: 12px;
-    background-image: url("../img/loc.svg");
+    background-image: url("../img/loc2.svg");
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
@@ -204,7 +216,7 @@
     position: absolute;
     left: -30px;
     top: 12px;
-    background-image: url("../img/tel.svg");
+    background-image: url("../img/tel2.svg");
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
@@ -215,10 +227,19 @@
     position: absolute;
     left: -30px;
     top: 12px;
-    background-image: url("../img/mail.svg");
+    background-image: url("../img/mail2.svg");
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
     content: ""; }
+
+.w3 {
+  width: 281px;
+  outline: 1px solid red;
+  height: 20px;
+  float: left; }
+
+.w9 {
+  width: 887px; }
 
 /*# sourceMappingURL=style.css.map */
