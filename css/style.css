@@ -1,3 +1,7 @@
+@media (max-width: 1200px) {
+  .nn {
+    width: 1263px !important;
+    background-color: red; } }
 .top {
   background-color: #d8d8d8;
   height: 50px;
