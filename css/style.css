@@ -1,0 +1,224 @@
+.top {
+  background-color: #d8d8d8;
+  height: 50px;
+  border-bottom: 3px solid #c5c5c6; }
+  .top span {
+    text-transform: uppercase;
+    color: #596588;
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 14px; }
+  .top a {
+    text-decoration: none;
+    color: #77839a;
+    text-transform: none; }
+  .top .location {
+    position: relative; }
+  .top .location:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/loc.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+  .top .number {
+    position: relative; }
+  .top .number:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/tel.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+  .top .email {
+    position: relative; }
+  .top .email:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/mail.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+
+.header {
+  height: 274px;
+  background-image: url(../img/header-bg.png);
+  background-position: -177px 0;
+  border-bottom: 8px solid #d8d8d8; }
+  .header .logotype {
+    background-color: #d8d8d8; }
+  .header .header-h1 {
+    background-image: url("../img/samolet.png");
+    background-size: 755px auto;
+    background-position: -2px 0;
+    background-repeat: no-repeat; }
+  .header img {
+    width: 265px;
+    padding: 69px 0; }
+  .header h1 {
+    font-family: verdana;
+    font-weight: bold;
+    color: #56698F;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: right; }
+
+.menu {
+  font-size: 20px;
+  background-color: #ef7f1a; }
+  .menu a {
+    color: #fff;
+    display: inline-block;
+    padding: 0px 30px; }
+  .menu .nopadding {
+    color: #dc2b1b;
+    position: relative;
+    top: 0px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+    left: 23px; }
+  .menu span {
+    display: inline-block;
+    position: relative;
+    top: 15px; }
+  .menu .b {
+    position: relative;
+    font-size: 28px;
+    font-weight: bold; }
+  .menu .s {
+    display: block;
+    font-weight: 400;
+    margin-top: -10px; }
+  .menu .contact {
+    background-color: #7688a1;
+    position: relative;
+    height: 80px;
+    padding-top: 25px;
+    left: 17px;
+    top: -5px; }
+  .menu .left {
+    font-family: Impact, sans-serif;
+    z-index: 9999;
+    background-color: #77839a;
+    min-height: 100%;
+    width: 292px;
+    position: absolute; }
+    .menu .left .box {
+      text-align: center;
+      padding-top: 40px; }
+      .menu .left .box a {
+        color: #d8d8d8;
+        display: block; }
+      .menu .left .box small {
+        font-size: 26px;
+        position: relative;
+        left: -5px; }
+      .menu .left .box span {
+        font-size: 24px;
+        position: relative;
+        left: -3px; }
+      .menu .left .box a:nth-child(1) {
+        font-size: 40px; }
+      .menu .left .box a:nth-child(2) {
+        font-size: 39px; }
+      .menu .left .box a:nth-child(3) {
+        font-size: 37px; }
+      .menu .left .box a:nth-child(4) {
+        font-size: 40px;
+        line-height: 0.7;
+        position: relative;
+        left: 5px;
+        padding: 10px 0; }
+      .menu .left .box a:nth-child(5) {
+        font-size: 38px; }
+      .menu .left .box a:nth-child(6) {
+        font-size: 28px; }
+      .menu .left .box a:nth-child(7) {
+        font-size: 28px;
+        line-height: 0.4;
+        position: relative;
+        left: 5px;
+        padding: 10px 0; }
+
+.h80 {
+  height: 80px; }
+
+.welc {
+  background-color: #d8d8d8;
+  height: 250px;
+  width: 100%;
+  position: absolute; }
+  .welc p {
+    font-family: verdana;
+    font-weight: bold;
+    color: #56698F;
+    font-size: 45px;
+    padding: 10px 0;
+    padding-left: 30px; }
+    .welc p small {
+      font-size: 22px; }
+
+/*.col-md-3, .col-md-4, .col-md-8, .col-md-9, .col-md-12{
+	outline: 1px solid red;
+} */
+.clear {
+  clear: both; }
+
+.top2 {
+  z-index: 999999;
+  background-color: #000;
+  height: 50px;
+  border-bottom: 3px solid #c5c5c6; }
+  .top2 span {
+    text-transform: uppercase;
+    color: #596588;
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 14px; }
+  .top2 a {
+    text-decoration: none;
+    color: #77839a;
+    text-transform: none; }
+  .top2 .location {
+    position: relative; }
+  .top2 .location:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/loc.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+  .top2 .number {
+    position: relative; }
+  .top2 .number:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/tel.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+  .top2 .email {
+    position: relative; }
+  .top2 .email:before {
+    position: absolute;
+    left: -30px;
+    top: 12px;
+    background-image: url("../img/mail.svg");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    content: ""; }
+
+/*# sourceMappingURL=style.css.map */
